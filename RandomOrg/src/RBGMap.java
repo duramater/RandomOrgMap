@@ -19,8 +19,8 @@ import static jdk.nashorn.internal.runtime.arrays.ArrayData.initialArray;
  */
 public class RBGMap extends JFrame{
     final int COMPONENT = 3;
-    final int WIDTH = 18;
-    final int HEIGHT = 18;
+    final int WIDTH = 128;
+    final int HEIGHT = 128;
     public RBGMap() throws IOException {
         super("Map");
         Random rand = new Random();
