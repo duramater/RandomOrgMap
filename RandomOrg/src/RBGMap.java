@@ -36,9 +36,9 @@ public class RBGMap extends JFrame{
                 colorPanels[i][j] = new JPanel();
                 colorPanels[i][j].setSize(1, 1);
                 colorPanels[i][j].setBackground(new Color(
-                        Integer.parseInt(myRandomIntegers.get(j + 0)),
-                        Integer.parseInt(myRandomIntegers.get(j + 1)),
-                        Integer.parseInt(myRandomIntegers.get(j + 2))));
+                        Integer.parseInt(myRandomIntegers.get(3 * j + 0)),
+                        Integer.parseInt(myRandomIntegers.get(3 * j + 1)),
+                        Integer.parseInt(myRandomIntegers.get(3 * j + 2))));
                 mainPanel.add(colorPanels[i][j]);
             }
         }
